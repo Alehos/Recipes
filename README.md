@@ -1,2 +1,2 @@
 # Recipes
-+[See demo](https://Alehos.github.io/Recipes/)
+[See demo](https://Alehos.github.io/Recipes/)
