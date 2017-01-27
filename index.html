@@ -14,7 +14,7 @@
   <body>
 
     <!-- Начало главного контейнера -->
-    <div class="container">
+    <div class="container main-container">
 
     <!-- Начало контейнера лого -->
     <div class="row">
@@ -26,8 +26,20 @@
     <!-- Конец контейнера лого -->
 
       <!-- Начало навбара -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Блок для сворачивания меню на телефонах -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <!-- Конец блока для сворачивания меню на телефонах -->
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html"> На главную </a></li>
             
@@ -85,19 +97,37 @@
       <!-- Начало лучших рецептов -->
       <div class="row">
         <div class="col-md-4">
-            <h3 class="muted text-center">Лучший салат</h4>
+            <h3 class="text-muted text-center">Лучший салат</h4>
             <img class="color-effect thumbnail img-responsive" alt="salad" src="images/salad.jpg">
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
             <a href="#" class="btn btn-success"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> подробнее </a>
         </div>
         <div class="col-md-4">
-            <h3 class="muted text-center">Лучший десерт</h4>
+            <h3 class="text-muted text-center">Лучший десерт</h4>
             <img class="color-effect thumbnail img-responsive" alt="dessert" src="images/dessert.jpg">
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
             <a href="#" class="btn btn-success"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> подробнее </a>
         </div>
         <div class="col-md-4">
-            <h3 class="muted text-center">Лучшее вино</h4>
+            <h3 class="text-muted text-center">Лучшее вино</h4>
+            <a href="wine_strawberry.html"> <img class="color-effect thumbnail img-responsive" alt="wine" src="images/polunychne-vyno.png"> </a>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+            <a href="wine_strawberry.html" class="btn btn-success"> <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> подробнее </a>
+        </div>
+                <div class="col-md-4">
+            <h3 class="text-muted text-center">Лучший салат</h4>
+            <img class="color-effect thumbnail img-responsive" alt="salad" src="images/salad.jpg">
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+            <a href="#" class="btn btn-success"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> подробнее </a>
+        </div>
+        <div class="col-md-4">
+            <h3 class="text-muted text-center">Лучший десерт</h4>
+            <img class="color-effect thumbnail img-responsive" alt="dessert" src="images/dessert.jpg">
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+            <a href="#" class="btn btn-success"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> подробнее </a>
+        </div>
+        <div class="col-md-4">
+            <h3 class="text-muted text-center">Лучшее вино</h4>
             <a href="wine_strawberry.html"> <img class="color-effect thumbnail img-responsive" alt="wine" src="images/polunychne-vyno.png"> </a>
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
             <a href="wine_strawberry.html" class="btn btn-success"> <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> подробнее </a>

@@ -14,7 +14,7 @@
   <body>
 
     <!-- Начало главного контейнера -->
-    <div class="container">
+    <div class="container main-container">
 
     <!-- Начало контейнера лого -->
     <div class="row">
@@ -26,8 +26,20 @@
     <!-- Конец контейнера лого -->
 
       <!-- Начало навбара -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <!-- Блок для сворачивания меню на телефонах -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+    <!-- Конец блока для сворачивания меню на телефонах -->
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html"> На главную </a></li>
             
@@ -85,21 +97,32 @@
       <!-- Начало рецепта -->
       <div class="row">
         <div class="col-md-12">
-            <h3 class="muted text-center">Вино из клубники</h3>
+            <h3 class="text-muted text-center">Вино из клубники</h3>
             <p>&nbsp;&nbsp;&nbsp;Спелые ягоды надо как следует размять ложкой и переложить в стеклянный баллон. Затем приготовить сироп из сахара и воды и залить им ягоды. Соотношение продуктов должно быть следующее 1 кг сахара, 1,5 л воды, 1,5 кг ягод. Для того чтобы брожение началось раньше и проходило более активно, сахар следует добавлять в два приема.</p>
 
+            <!-- Начало секции фоток -->
             <div class="row">
               <div class="col-md-4">
-                <img class="img-responsive" alt="wine" src="images/polunychne-vyno.png">
+                <img class="thumbnail img-responsive" alt="wine" src="images/polunychne-vyno 02.jpg">
               </div>
-              <div class="ingredient col-md-8">
-                <i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Продукты:</i>
-                  <ul>
-                    <li>сахар 1 кг</li>
-                    <li>вода 1.5 л</li>
-                    <li>клубника 1.5 кг</li>
-                  </ul>
+
+              <div class="col-md-4">
+                <img class="thumbnail img-responsive" alt="wine" src="images/polunychne-vyno 03.jpg">
               </div>
+
+              <div class="col-md-4">
+                <img class="thumbnail img-responsive" alt="wine" src="images/polunychne-vyno 04.jpg">
+              </div>
+            </div>
+            <!-- Конец секции фоток -->
+
+            <div class="ingredient">
+              <em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Продукты:</em>
+                <ul>
+                  <li>сахар 1 кг</li>
+                  <li>вода 1.5 л</li>
+                  <li>клубника 1.5 кг</li>
+                </ul>
             </div>
 
             <p>&nbsp;&nbsp;&nbsp;Полученную смесь следует хорошо размешать и поставить при температуре 16—18°. Не менее 1/5 объема баллона должно остаться свободным, чтобы бродящий сок не переливался через край. Горлышко сосуда можно перевязать чистой марлей. Несколько раз в день смесь следует перемешивать деревянной ложкой, чтобы на поверхности не появилось плесени. Через 7—8 дней сок отделите от плодовой массы или с помощью резиновой трубки, как уже было указано, или с помощью грубой фильтрации, например через ту же марлю. Сок перелейте в бутылки, где брожение будет продолжаться, но уже не бурное, а тихое.</p>
