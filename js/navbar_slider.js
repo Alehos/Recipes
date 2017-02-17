@@ -1,5 +1,13 @@
 // слайдер меню навигации
 
+// $(".nav li").hover(function () {
+// 	$(this).children("ul").stop().delay(0).animate({height: "toggle", opacity: "toggle"}, 100);
+// });
+
+
 $(".nav li").hover(function () {
-	$(this).children("ul").stop().delay(0).animate({height: "toggle", opacity: "toggle"}, 100);
+	if(window.matchMedia('(min-width: 768px)').matches)
+	{
+		$(this).children("ul").stop().delay(0).animate({height: "toggle", opacity: "toggle"}, 100);
+	};
 });
