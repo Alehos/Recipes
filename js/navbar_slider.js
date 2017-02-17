@@ -6,7 +6,7 @@
 
 
 $(".nav li").hover(function () {
-	if(window.matchMedia('(min-width: 768px)').matches)
+	if(window.matchMedia('(min-width: 992px)').matches)
 	{
 		$(this).children("ul").stop().delay(0).animate({height: "toggle", opacity: "toggle"}, 100);
 	};
